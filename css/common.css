@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", serif;
+}
+ul{
+    list-style: none;
+}
+
+.item{
+    width: 392px;
+    min-height: 200px;
+    padding: 16px;
+    margin-bottom: 24px;
+    background-color: #f6f6fe;
+    border-radius: 8px;
+}
+
+h2, h1{
+    /* font-family: "Montserrat",
+        serif; */
+    font-weight: 600px;
+    line-height: 32px;
+    letter-spacing: 4%;
+    color: #2E2F42;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.list-item, input {
+    width: 360px;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-left: -40px;
+    line-height: 40px;
+    color: #2E2F42;
+}
+
+.gallery{
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    margin: auto;
+}
+
+img{
+    width: 360px;
+    height: 300px;
+}
+
+input{
+    margin-left: 0;
+    color: #2E2F42;
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: 4%;
+    display: block;
+    margin-top: 8px;
+}
+
+.login-form{
+    width: 360px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.btn-submit,
+.change-color,
+.btn-create,
+.btn-destroy{
+    min-width: 86px;
+    height: 40px;
+    background-color: #4e75ff;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.btn-destroy{
+    background-color: #ff4e4e;
+}
+
+.widget{
+    min-width: 169px;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+#controls{
+    width: 486px;
+    height: 104px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6fe;
+    border-radius: 8px;
+    margin: 16px auto;
+}
+
+.controls{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+#boxes{
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f6f6fe;
+    border-radius: 8px;
+}
