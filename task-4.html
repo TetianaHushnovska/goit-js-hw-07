@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Task 6</title>
+    <title>Task 4</title>
     <link rel="stylesheet" href="../css/common.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,14 +16,18 @@
   <body>
     <p><a href="./index.html">Go back</a></p>
 
-    <div id="controls">
-      <input class="controls" type="number" min="1" max="100" step="1" />
-      <button class="btn-create" type="button" data-create>Create</button>
-      <button class="btn-destroy" type="button" data-destroy>Destroy</button>
-    </div>
+    <form class="login-form">
+      <label>
+        Email
+        <input type="email" name="email" />
+      </label>
+      <label>
+        Password
+        <input type="password" name="password" />
+      </label>
+      <button class="btn-submit" type="submit">Login</button>
+    </form>
 
-    <div id="boxes"></div>
-
-    <script src="../js/task-6.js" type="module"></script>
+    <script src="./js/task-4.js" type="module"></script>
   </body>
 </html>
